@@ -34,7 +34,7 @@ namespace Vidly.Controllers
             return View("CustomerForm", viewModel);
         }
 
-        //adds customer to db
+        //Adds customer to db
         [HttpPost]
         public ActionResult Save(Customer customer)
         {
